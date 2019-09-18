@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         gMap = googleMap;
 
         //MARCADOR EN UNA POSICION
-        /*LatLng miCasa = new LatLng(19.42667,-100.35269);
+        LatLng miCasa = new LatLng(19.42667,-100.35269);
         googleMap.addMarker(new MarkerOptions() //el metodo addMarker añade un marcador(icono)que apunta a la posicion indicada por la longitud y latitud
         .position(miCasa)
         .title("Casa de Sofía"));
@@ -254,9 +254,9 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         //eventos con click prolongado
         // Configuración UI
-        gMap.getUiSettings().setAllGesturesEnabled(false);
+        //gMap.getUiSettings().setAllGesturesEnabled(false);
         // Eventos
-        gMap.setOnMapLongClickListener(this);
+        //gMap.setOnMapLongClickListener(this);
     }
 
     //cuando el usuario responde la osolicitud el sistma invoca a este metodo para notificar al usuario
